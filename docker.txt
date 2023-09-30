@@ -1,0 +1,6 @@
+steps:
+1) Create a string boot app 
+2)Create a project jar file
+3) Create a docker file
+4) Create a image with the help of docker file 
+
