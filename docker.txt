@@ -4,3 +4,11 @@ steps:
 3) Create a docker file
 4) Create a image with the help of docker file 
 
+------------------------------------------------------------
+
+>>>Create a spring boot project
+>>>Create a docker file
+>>>Create a local image of docker
+>>>Push image to docker hub
+>>>Pull image from docker hub
+>>>Run project using image of dockerhub
