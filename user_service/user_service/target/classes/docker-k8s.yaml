@@ -13,7 +13,7 @@ spec:
         app: userservice
     spec:
       containers:
-      - name: contactservice
+      - name: userservice
         image: 863099/springboot-image:latest
         ports:
         - containerPort: 3000
