@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: contactservice
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: contactservice
+  template:
+    metadata:
+      labels:
+        app: contactservice
+    spec:
+      containers:
+      - name: contactservice
+        image: 863099/springboot-image:latest
+        ports:
+        - containerPort: 3000
