@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eserver
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: eserver
+  template:
+    metadata:
+      labels:
+        app: eserver
+    spec:
+      containers:
+      - name: eserver
+        image: 863099/springboot-image:latest
+        ports:
+        - containerPort: 3000
