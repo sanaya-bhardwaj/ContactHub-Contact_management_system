@@ -160,7 +160,7 @@ Container orchestration simplifies deployment, scaling, and management by automa
 
 <img width="548" alt="deployment process " src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/914ab4da-83eb-43d5-bd40-022a6c7174cb">
 
-# Explain how load balancing is achieved within the containerized environement.
+# How load balancing is achieved within the containerized environement?
 
 Load balancing is a technique used to distribute incoming network traffic across multiple servers or instances to enhance availability, scalability, and performance. In containerized environments like Kubernetes, load balancing ensures even distribution of requests among containers, optimizing resource utilization and allowing for uninterrupted performance of microservices-based applications. 
 
