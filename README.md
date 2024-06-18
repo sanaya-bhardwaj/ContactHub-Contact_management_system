@@ -148,6 +148,30 @@ Container orchestration is the process of automating the operational effort requ
 
 Container orchestration simplifies deployment, scaling, and management by automating the processes of deploying and managing containers at scale. It abstracts complexities, streamlines resource allocation, automates scaling based on demand, and provides centralized management, making it easier to maintain, update, and scale applications in a containerized environment.
 
+# The ability to deploy the application in a cloud environment consistently.
+
+*AWS provides a range of services that support microservices architecture:*
+
+**AWS ECS**
+
+- Amazon Elastic Container Service.
+
+- ECS is a fully managed container orchestration service.
+
+-Amazon ECS makes it easy to deploy, manage and scale Docker containers running applications, services and batch processes. 
+
+-It places containers across our cluster based on our resource needs and is integrated with familiar features like Elastic Load Balancing, EC2 security groups. EBS volumes and IAM roles.
+
+<img width="344" alt="ECS" src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/16482561-47dc-47de-a983-3365e261a797">
+
+**AWS Fargate**
+
+-AWS Fargate is a serverless compute engine for containers that works with ECS & it allow you to run containers without having provision, configure & Scaling.
+
+- Eliminate the need of EC2 instance.
+
+- AWS Fargate is compatible with both Amazon Elastic Container Service (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS).
+
 # Deployment Process 
 
 **Step 1:** Developing Spring Boot Application- Creating Spring Boot application.
