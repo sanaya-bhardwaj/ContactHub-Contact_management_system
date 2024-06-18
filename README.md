@@ -159,3 +159,11 @@ Container orchestration simplifies deployment, scaling, and management by automa
 **Step 9:** Deploying on AWS Fargate- Deploying the ECS service and Fargate will manage the containers.
 
 <img width="548" alt="deployment process " src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/914ab4da-83eb-43d5-bd40-022a6c7174cb">
+
+# Explain how load balancing is achieved within the containerized environement.
+
+Load balancing is a technique used to distribute incoming network traffic across multiple servers or instances to enhance availability, scalability, and performance. In containerized environments like Kubernetes, load balancing ensures even distribution of requests among containers, optimizing resource utilization and allowing for uninterrupted performance of microservices-based applications. 
+
+It enables updating or scaling individual microservices without disruptions by distributing traffic effectively across the containerized services. Load balancing is critical for achieving high availability and reliability in distributed systems.
+
+<img width="597" alt="load balancers" src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/9b987c2c-d6cd-4438-a938-5744efc00f28">
