@@ -26,13 +26,13 @@ In an increasingly interconnected world, managing personal and professional cont
 
 **Functionalities:**
 
-**Create Contact:** Allows users to add new contact records.
+**- Create Contact:** Allows users to add new contact records.
 
-**Retrieve Contact:** Fetches contact information based on user requests.
+**- Retrieve Contact:** Fetches contact information based on user requests.
 
-**Update Contact:** Enables users to modify existing contact details.
+**- Update Contact:** Enables users to modify existing contact details.
 
-**Delete Contact:** Removes contact records as requested by users.
+**- Delete Contact:** Removes contact records as requested by users.
 
 **How It Works:** When a client needs to perform operations on contacts, the API Gateway routes the request to the Contact Service. The Contact Service processes the request and returns the relevant data or updates.
 
