@@ -17,3 +17,10 @@ In an increasingly interconnected world, managing personal and professional cont
 **- Authentication:** Manages user login and authentication tokens.
 
 **- Profile Management:** Enables users to view and update their profile information.
+
+**How It Works:** When a client sends a request to the API Gateway that requires user-related information or actions, the API Gateway forwards the request to the User Service. The User Service processes the request and responds to the API Gateway.
+
+**2. Contact Service**
+
+**Purpose:** The Contact Service is focused on managing contact-related data. It handles the creation, retrieval, modification, and deletion of contact records.
+
