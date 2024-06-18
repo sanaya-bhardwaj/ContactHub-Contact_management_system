@@ -59,3 +59,18 @@ The API Gateway serves as the single-entry point for external clients (e.g., web
 These microservices work together to create a modular and scalable architecture. Each microservice has its own specific area of responsibility, making it easier to develop, test, and maintain. The API Gateway Service provides a unified API while handling cross-cutting concerns such as authentication and load balancing.
 
 Eureka Server ensures that microservices can dynamically discover and communicate with each other, allowing for flexibility in scaling and maintaining the system. This microservices architecture promotes agility, scalability, and the ability to deploy and update individual components independently, ultimately leading to a more resilient and maintainable system.
+
+# How the microservices will communicate with each other?
+
+<img width="323" alt="ContactHub " src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/78b122c4-0e8e-446c-baf6-ede1ef84caaa">
+
+• API Gateway is the entry point for client requests.
+• Eureka (Service Registry) registers and tracks microservices.
+• User Service manages user-related data.
+• Contact Service handles contact-related data.
+• API Gateway routes client requests to the appropriate service.
+• Eureka enables services to discover each other.
+• User Service handles user data and operations.
+• Contact Service manages contact data.
+• Services communicate via HTTP-based RESTful APIs.
+
