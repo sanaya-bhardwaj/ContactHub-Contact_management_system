@@ -36,3 +36,20 @@ In an increasingly interconnected world, managing personal and professional cont
 
 **How It Works:** When a client needs to perform operations on contacts, the API Gateway routes the request to the Contact Service. The Contact Service processes the request and returns the relevant data or updates.
 
+**4. API Gateway Service**
+
+**Purpose:** The API Gateway Service acts as the entry point for client applications and centralizes requests to various microservices. It can handle authentication, load balancing, and routing.
+
+**Functionalities:**
+
+**Request Routing:** Receives incoming requests from clients and routes them to the appropriate microservice based on the request path or URL.
+
+**Authentication:** Manages user authentication for incoming requests.
+
+**Load Balancing:** Distributes requests among multiple instances of a service to balance the load.
+
+**Cross-cutting Concerns:** Handles other concerns such as logging, rate limiting, and security.
+
+**How It Works:**
+
+The API Gateway serves as the single-entry point for external clients (e.g., web or mobile applications) to interact with the microservices. It routes client requests to the appropriate microservices, handles authentication, and addresses other cross-cutting concerns.
