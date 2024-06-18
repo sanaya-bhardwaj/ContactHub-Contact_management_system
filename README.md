@@ -36,6 +36,18 @@ In an increasingly interconnected world, managing personal and professional cont
 
 **How It Works:** When a client needs to perform operations on contacts, the API Gateway routes the request to the Contact Service. The Contact Service processes the request and returns the relevant data or updates.
 
+**3. Eureka Server**
+
+**Purpose:** The Eureka Server serves as the service registry and discovery server. It allows microservices to register themselves and discover other services.
+
+**Functionalities:**
+
+**- Service Registration:** Each microservice registers itself with the Eureka server upon startup.
+
+**- Service Discovery:** Maintains a registry of all available microservices and their network locations (IP addresses and ports).
+
+**How It Works:** Microservices, including the User Service and Contact Service, register with the Eureka Server, which keeps track of their locations and statuses. Other microservices use this registry to find and communicate with each other dynamically.
+
 **4. API Gateway Service**
 
 **Purpose:** The API Gateway Service acts as the entry point for client applications and centralizes requests to various microservices. It can handle authentication, load balancing, and routing.
@@ -50,9 +62,7 @@ In an increasingly interconnected world, managing personal and professional cont
 
 **- Cross-cutting Concerns:** Handles other concerns such as logging, rate limiting, and security.
 
-**How It Works:**
-
-The API Gateway serves as the single-entry point for external clients (e.g., web or mobile applications) to interact with the microservices. It routes client requests to the appropriate microservices, handles authentication, and addresses other cross-cutting concerns.
+**How It Works:** The API Gateway serves as the single-entry point for external clients (e.g., web or mobile applications) to interact with the microservices. It routes client requests to the appropriate microservices, handles authentication, and addresses other cross-cutting concerns.
 
 # Architecture Overview
 
