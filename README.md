@@ -65,12 +65,20 @@ Eureka Server ensures that microservices can dynamically discover and communicat
 <img width="323" alt="ContactHub " src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/78b122c4-0e8e-446c-baf6-ede1ef84caaa">
 
 • API Gateway is the entry point for client requests.
+
 • Eureka (Service Registry) registers and tracks microservices.
+
 • User Service manages user-related data.
+
 • Contact Service handles contact-related data.
+
 • API Gateway routes client requests to the appropriate service.
+
 • Eureka enables services to discover each other.
+
 • User Service handles user data and operations.
+
 • Contact Service manages contact data.
+
 • Services communicate via HTTP-based RESTful APIs.
 
