@@ -126,6 +126,16 @@ Eureka Server ensures that microservices can dynamically discover and communicat
   
 • Creating Kubernetes Services using commands:
 
-- kubectl apply -f service-service1.yaml
+- *kubectl apply -f service-service1.yaml*
 
-- kubectl apply -f service-service2.yaml
+- *kubectl apply -f service-service2.yaml*
+
+# How container orchestration simpilifies deployment, scaling and management?
+
+<img width="619" alt="Container Orchestration " src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/d833861d-a306-4f66-a1c5-c130993d377c">
+
+Container orchestration is the process of automating the operational effort required to run containerized workloads and services. It automates various aspects of the containers’ lifecycle, including provisioning, deployment, scaling, networking, load balancing, traffic routing, and more.
+
+Container orchestration simplifies deployment, scaling, and management by automating the processes of deploying and managing containers at scale. It abstracts complexities, streamlines resource allocation, automates scaling based on demand, and provides centralized management, making it easier to maintain, update, and scale applications in a containerized environment.
+
+
