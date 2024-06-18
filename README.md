@@ -12,8 +12,8 @@ In an increasingly interconnected world, managing personal and professional cont
 
 **Functionalities:**
 
-**User Registration:** Allows new users to register and create an account.
+**- User Registration:** Allows new users to register and create an account.
 
-**Authentication:** Manages user login and authentication tokens.
+**- Authentication:** Manages user login and authentication tokens.
 
-**Profile Management:** Enables users to view and update their profile information.
+**- Profile Management:** Enables users to view and update their profile information.
