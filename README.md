@@ -62,7 +62,7 @@ Eureka Server ensures that microservices can dynamically discover and communicat
 
 # How the microservices will communicate with each other?
 
-<img width="323" alt="ContactHub " src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/2a171101-ee0c-466e-8546-6ed039177781">
+<img width="500" alt="ContactHub " src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/2a171101-ee0c-466e-8546-6ed039177781">
 
 • API Gateway is the entry point for client requests.
 
