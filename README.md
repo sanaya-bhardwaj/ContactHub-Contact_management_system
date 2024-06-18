@@ -105,3 +105,27 @@ Eureka Server ensures that microservices can dynamically discover and communicat
 • **Extensive Service Offering:**
 
 ➢ AWS has a comprehensive set of services, including databases *(Amazon DynamoDB, Amazon RDS)*, *storage (Amazon S3), and messaging (Amazon SQS)*, which are crucial for a microservices architecture.
+
+# Container Orchestration
+
+**DEPLOYMENT STEPS:**
+
+• Containerizing Microservices with Docker
+
+• Building Docker Images
+
+• Pushing Docker Images to Container Registry
+
+• Deploying Microservices with Kubernetes
+
+• Creating Kubernetes Deployments using commands:
+
+- *kubectl apply -f deployment-service1.yaml*
+  
+- *kubectl apply -f deployment-service2.yaml*
+  
+• Creating Kubernetes Services using commands:
+
+- kubectl apply -f service-service1.yaml
+
+- kubectl apply -f service-service2.yaml
