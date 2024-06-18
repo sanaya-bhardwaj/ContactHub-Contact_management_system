@@ -138,4 +138,24 @@ Container orchestration is the process of automating the operational effort requ
 
 Container orchestration simplifies deployment, scaling, and management by automating the processes of deploying and managing containers at scale. It abstracts complexities, streamlines resource allocation, automates scaling based on demand, and provides centralized management, making it easier to maintain, update, and scale applications in a containerized environment.
 
+# Deployment Process 
 
+**Step 1:** Developing Spring Boot Application- Creating Spring Boot application.
+
+**Step 2:** Dockerizing the Spring Boot Application- Writing a Dockerfile and building Docker images locally.
+
+**Step 3:** Building and Testing Docker Image Locally.
+
+**Step 4:** Pushing Docker Image to Docker Hub.
+
+**Step 5:** Setting up AWS ECS CLUSTER- Creating an ECS Cluster on AWS.
+
+**Step 6:** Creating ECS Task Definition- Defining task definition specifying the Docker image.
+
+**Step 7:** Creating ECS service- Setting up an ECS service using task definition.
+
+**Step 8:** Configuring AWS Fargate- Choosing Fargate as the launch type.
+
+**Step 9:** Deploying on AWS Fargate- Deploying the ECS service and Fargate will manage the containers.
+
+<img width="548" alt="deployment process " src="https://github.com/sanaya-bhardwaj/ContactHub-Contact_management_system/assets/135012941/914ab4da-83eb-43d5-bd40-022a6c7174cb">
