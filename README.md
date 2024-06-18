@@ -42,13 +42,13 @@ In an increasingly interconnected world, managing personal and professional cont
 
 **Functionalities:**
 
-**Request Routing:** Receives incoming requests from clients and routes them to the appropriate microservice based on the request path or URL.
+**- Request Routing:** Receives incoming requests from clients and routes them to the appropriate microservice based on the request path or URL.
 
-**Authentication:** Manages user authentication for incoming requests.
+**- Authentication:** Manages user authentication for incoming requests.
 
-**Load Balancing:** Distributes requests among multiple instances of a service to balance the load.
+**- Load Balancing:** Distributes requests among multiple instances of a service to balance the load.
 
-**Cross-cutting Concerns:** Handles other concerns such as logging, rate limiting, and security.
+**- Cross-cutting Concerns:** Handles other concerns such as logging, rate limiting, and security.
 
 **How It Works:**
 
